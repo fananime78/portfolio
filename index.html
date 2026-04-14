@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethan Halimi - Portfolio</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="icon" type="image/png" href="icone.png">
+</head>
+<body>
+    <div class="all">
+
+        <nav>
+            <ul>
+                <li><a href="#a_propos">A propos de moi</a></li>
+                <li class="menu">
+                    <a href="#projets">Projets</a>
+                    <div class="deroulant">
+                        <ul>
+                            <li><a href="#rover">Rover</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#jarvis">IA</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#parcours">Parcours et distinctions</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="accueil">
+            <h1>Ethan Halimi - Futur ingénieur en systèmes embarqués</h1>
+            <p class="accroche"><i>"Ce qui m'intéresse, ce n'est pas d'utiliser la technologie, c'est de la construire."</i></p>
+        </div>
+
+        <div id="a_propos" class="elemets">
+            <h2>A propos de moi</h2>
+
+            <div id="origine">
+                <p>J'ai toujours été passionné par l'électronique. Les quelques TP de physique en seconde avec une carte Arduino m'ont envoûté, ça m'a poussé à continuer chez moi et au club informatique, jusqu'à créer de vrais projets en groupe comme le <a href="#rover">rover</a>.</p>
+            </div>
+
+            <div id="actuel">
+                <p>Je suis actuellement en terminale au lycée Jeanne d'Albret à Saint-Germain-en-Laye. J'ai suivi les spécialités mathématiques et NSI, ainsi que l'option maths expertes.</p>
+                <p>Je mène aussi des projets personnels dans plusieurs domaines pour explorer les facettes concrètes de l'informatique. En parallèle, je joue de la batterie depuis environ 10 ans.</p>
+            </div>
+
+            <div id="orientation">
+                <p>Mon objectif est de devenir ingénieur en informatique, spécialisé dans les systèmes embarqués. La quantique m'attire également, un domaine que j'envisage d'approfondir à plus long terme.</p>
+            </div>
+        </div>
+
+        <div id="projets" class="elemets">
+            <h2>Projets</h2>
+            <div id="rover"><h3><a href="https://github.com/fananime78/rover" target="_blank">Rover</a></h3>
+            <img src="images/rover2.jpeg" id="affiche"><p>Cette "voiture télécommandée" représente un rover martien. Vous pouvez voir à droite une première version de celui-ci. Le montage se compose de 6 moteurs DC, d'un module L298N, de 2 potentiomètres contrôlant la puissance des moteurs ainsi que d'une carte arduino UNO, regroupant le tout. Pour le moment, le rover se contrôle avec des câbles, mais nous ferons bientôt une version où les communications se feront par bluetooth. Je me suis particulièrement occupé de la programmation de ce rover (avec l'aide du club), vous pourrez retrouver certains programme <a href="https://github.com/fananime78/rover" target="_blank">ici.</a></p></div>
+            <br><div id="portfolio"><h3><a href="https://github.com/fananime78/portfolio" target="_blank">Portfolio</a></h3><p>Une simple page web, créée à partir d'un style préexistant que j'ai personnalisé. Elle a pour but d'agrémenter mon dossier parcoursup. Vous pourrez trouver le code source de ce petit projet <a href="https://github.com/fananime78/portfolio" target="_blank">ici.</a></p></div>
+            <br><div id="jarvis"><h3><a href="https://github.com/fananime78/Jarvis" target="_blank">Jarvis/IA</a></h3>
+            <p>A partir d'un modèle LLM (qwen2.5:7b), j'essaye de créer une IA vocale pouvant gérer un emploi du temps. Pour cela, je suis entrain de développer une base de donnée SQLite contenant le planning de quelqu'un. Le modèle LLM pourra alors communiquer avec cette base de donnée pour ajouter des évenements, en retirer ou consulter des évenements sur une période donnée (aujourd'hui, cette semaine, la semaine prochaine, ...).</p></div>
+        </div>
+
+        <div id="competences" class="elemets">
+            <h2>Mes Compétences</h2>
+            <p><u>Langages :</u> Python, JavaScript, HTML, CSS, Arduino / C++</p>
+            <p><u>Domaines :</u> Systèmes embarqués, IA/LLM locaux (Ollama), développement web, algorithmes</p>
+        </div>
+
+        <div id="parcours" class="elemets">
+            <h2>Parcours et distinctions</h2>
+            <p>Durant cette année de terminale, je suis premier en NSI. J'étais également 3e au T1, puis 7e au T2 en maths expertes.</p>
+            <p>J'ai participé au concours de cybersécurité <a href="https://www.defense.gouv.fr/comcyber/evenements/passe-ton-hack-dabord-2026">Passe ton Hack d'Abord</a>, à la fois en cours de NSI et via le club informatique. Cette année, mon équipe s'est classée 340e sur 1089 équipes.</p>
+            <p>Lors de la journée d'immersion à EPITA, j'ai participé à deux ateliers : programmer une chorégraphie de robot araignée en C++/Arduino, puis un atelier d'introduction à la cybersécurité où nous devions retrouver le mot de passe administrateur d'un site web (chapeau noir vs chapeau blanc).</p>
+            <p>J'ai également eu l'occasion de visiter plusieurs journées portes ouvertes : Janson de Sailly (MP2I), EPITA, IPSA, INSA Rouen, ainsi que différents salons de l'Étudiant.</p>
+        </div>
+
+        <div id="contact" class="elemets">
+            <h2>Contact</h2>
+            <p><strong>Email :</strong> <a href="mailto:ethan78240@gmail.com">ethan78240@gmail.com</a></p>
+            <p>Retrouvez plus de projets sur mon <a href="https://github.com/fananime78" target="_blank">GitHub</a>.</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025/2026 Ethan Halimi — Tous droits réservés</p>
+    </footer>
+
+    <div class="fond fond1"></div>
+    <div class="fond fond2"></div>
+
+</body>
+</html>
